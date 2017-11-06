@@ -12,8 +12,7 @@
 	<?php if(!isset($_COOKIE["name"])){ ?>
 		<div id="popup">
 			<p>ძალიან მნიშვნელოვანი შეტყობინების ტექსტი</p>
-			<a href="/">დახურვა</a>
-			<?php setcookie("name", "value", time() + 86400); ?>
+			<a href="header.php">დახურვა</a>
 		</div>
 	
 	<?php } ?>
